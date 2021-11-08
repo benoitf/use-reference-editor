@@ -1,0 +1,8 @@
+schemaVersion: 2.1.0
+metadata:
+  name: reference-editor
+components:
+  - name: tools
+    container:
+      image: quay.io/devfile/universal-developer-image:ubi8-d433ed6
+      memoryLimit: 3Gi
