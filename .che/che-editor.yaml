@@ -1,0 +1,6 @@
+# reference and override
+reference: https://eclipse-che.github.io/che-plugin-registry/main/v3/plugins/eclipse/che-theia/next/devfile.yaml
+override:
+  containers:
+    - name: theia-ide
+      memoryLimit: 1280Mi
